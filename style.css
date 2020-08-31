@@ -14,10 +14,10 @@
 	background-repeat: no-repeat;
 }
 h1{
-	font-size: 30px;
+	font-size: 50px;
 	font-family: serif;
-	text-transform: uppercase;
-	color: #000000;
+	text-transform: capitalize;
+	color: orange;
 	font-weight: 900;
 }
 .display-6{
@@ -33,30 +33,50 @@ h1{
 }
 #abr{
 	color: orange;
+	font-size: 60px;
 }
-nav{
-	color: teal;
-	font-size: 30px;
+#nav-bar{
+	color: #fff;
+	border-radius: 20px;
+	margin: 10px;
+	text-decoration: none;
+	font-size: 20px;
 }
-.contain{
+#nav-bar:hover{
+	color: #ccc;
+}
+#contain{
 	margin-left: 20px;
 	margin-top: 160px;
 	font-size: 25px;
-	width: 70%;
+	width: 100%;
+}
+#about{
+	margin-top: 60px;
+	font-size: 25px;
+	width: 100%;
 }
 .contain-team{
 	margin-left: 20px;
 	margin-top: 60px;
 	font-size: 25px;
-	width: 70%;
+	width: 100%;
+}
+#contain-team{
+	margin-left: 20px;
+	margin-top: 40px;
+	font-size: 25px;
+	width: 100%;
 }
 img {
 	height: 150px;
 	width: 150px;
-	position: relative;
-	border-radius: 250px;
+	border-radius: 750px;
 	border: 2px solid grey;
 	opacity: .5s;
+}
+img:hover{
+	color: grey;
 }
 .team .profile1{
 	width: 150px;
@@ -70,6 +90,7 @@ img {
 	border-radius: 150px;
 	margin-left: 30px;
 	height: 100px;
+	margin-bottom: 90px;
 }
 .team-rmc .figure{
 	border-radius: 150px;
@@ -98,13 +119,44 @@ h4{
 	text-decoration: underline;
 	text-transform: capitalize;
 }
-footer{
+.copyright{
 	text-align: center;
 	background: #000000;
 	color: #fff;
+	margin-bottom: 10px;
 }
 span{
 	font-size: 20px;
 	color: #000000;
 	font-weight: 900;
+}
+#separ{
+	margin-top: 40px;
+}
+#address{
+	text-align: center;
+	font-size: 30px;
+	border: 2px solid grey;
+	margin-bottom: 100px;
+}
+h2{
+	color: orange;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+#home{
+	color: #ccc;
+	font-size: 30px;
+	margin-right: 10px;
+	margin-left: 5px;
+	text-decoration: none;
+}
+#home:hover{
+	color: #fff;
+}
+.con{
+	color: #fff;
+}
+#covid{
+	color: #fff;
 }
