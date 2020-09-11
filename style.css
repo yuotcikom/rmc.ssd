@@ -1,11 +1,13 @@
 .jumbotron{
 	text-align: center;
-	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS4EjDM4x5ghNCcEgN5M6keP7kKH8_UBCcFyQ&usqp=CAU);
+	background: url(https://innovationorigins.com/app/uploads/2019/06/technology-785742_1920-1004x669.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
+	text-transform: capitalize;
 	color: #ebfafa;
 	margin-bottom: -5px;
-	font-size: 20px;
+	font-size: 30px;
 }
 #jumbo{
 	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLTcPZZeDsrQdIkUHz7aicl39HKR7yhtgN3A&usqp=CAU);
@@ -24,12 +26,15 @@ h1{
 	font-size: 60px;
 	color: #fff;
 	font-family: serif;
-	font-weight: 900;
+	font-weight: 1200;
 }
 
 .para{
 	font-family: italic;
 	color: #ccc;
+	text-transform: capitalize;
+	font-weight: 600;
+	text-decoration: italic;
 }
 #abr{
 	color: orange;
@@ -69,11 +74,13 @@ h1{
 	width: 100%;
 }
 img {
-	height: 150px;
-	width: 150px;
-	border-radius: 750px;
+	height: 250px;
+	width: 250px;
+	margin-top: 40px;
 	border: 2px solid grey;
-	opacity: .5s;
+}
+#im{
+	text-align: center;
 }
 img:hover{
 	color: grey;
@@ -141,7 +148,10 @@ span{
 }
 h2{
 	color: orange;
-	font-size: 40px;
+	text-transform: capitalize;
+	font-family: serif;
+	font-size: 50px;
+	font-weight: 600;
 	margin-bottom: 30px;
 }
 #home{
@@ -154,12 +164,40 @@ h2{
 #home:hover{
 	color: #fff;
 }
-.con{
-	color: #fff;
-}
 #covid{
 	color: #fff;
 }
 .dropdown-item{
 	color: #fff;
+}
+div .about-me{
+	width: 150px;
+	height: 150px;
+}
+.pgh{
+	font-size: 30px;
+	margin-left: 27%;
+	margin-top: -24.5%;
+}
+.pgh-2{
+	font-size: 30px;
+	margin-top: 20px;
+}
+h5{
+	margin-left: 0.5%;
+	font-size: 30px;
+	color: blue;
+	margin-top: -40px;
+	margin-bottom: 15px;
+}
+.header{
+	text-align: center;
+	background: teal;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: 2%;
+	justify-content: space-between;
+}
+.pgh-3{
+	font-size: 30px;
 }
