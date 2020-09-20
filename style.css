@@ -1,11 +1,11 @@
 .jumbotron{
 	text-align: center;
-	background: url(https://innovationorigins.com/app/uploads/2019/06/technology-785742_1920-1004x669.jpg);
+	background-color: #D6EAF8;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	text-transform: capitalize;
-	color: #ebfafa;
+	color: #D6EAF8 ;
 	margin-bottom: -5px;
 	font-size: 30px;
 }
@@ -24,14 +24,14 @@ h1{
 }
 .display-6{
 	font-size: 60px;
-	color: #fff;
+	color: grey;
 	font-family: serif;
 	font-weight: 1200;
 }
 
 .para{
 	font-family: italic;
-	color: #ccc;
+	color: #0000ff;
 	text-transform: capitalize;
 	font-weight: 600;
 	text-decoration: italic;
@@ -52,7 +52,7 @@ h1{
 }
 #contain{
 	margin-left: 20px;
-	margin-top: 160px;
+	margin-top: 120px;
 	font-size: 25px;
 	width: 100%;
 }
@@ -67,50 +67,55 @@ h1{
 	font-size: 25px;
 	width: 100%;
 }
+.contain-team ul li{
+	list-style: none;
+	font-size: 25px;
+	font-weight: 800;
+}
 #contain-team{
 	margin-left: 20px;
 	margin-top: 40px;
 	font-size: 25px;
 	width: 100%;
 }
-img {
-	height: 250px;
-	width: 250px;
-	margin-top: 40px;
-	border: 2px solid grey;
+.team ul li img {
+	display: flex;
+	list-style: none;
+	height: 150px;
+	width: 150px;
+	margin: 20px;
+	border-radius: 250px;
+	border: 3px solid grey;
 }
-#im{
+img{
 	text-align: center;
+}
+div .team .team-rmc{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+}
+h6{
+	font-size: 30px;
+	color: dark;
+	font-weight: 900;
+}
+.profile img{
+	border-radius: 200px;
+	margin-left: 35%;
+	border: 2px solid white;
+}
+.head h6{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.profile p{
+	font-size: 25px;
 }
 img:hover{
 	color: grey;
 }
-.team .profile1{
-	width: 150px;
-	height: 150px;
-	margin: 10px;
-	border-radius: 250px;
-	margin-top: 10px;
-	margin-right: 20px;
-}
-.figure{
-	border-radius: 150px;
-	margin-left: 30px;
-	height: 100px;
-	margin-bottom: 90px;
-}
-.team-rmc .figure{
-	border-radius: 150px;
-}
-.profile1 h3{
-	margin-top: 10px;
-	margin-right: 20px;
-}
-.team h3{
-	color: grey;
-	margin: 5px;
-}
-
 .dropdown-item{
 	background: grey;
 	font-size: 25px;
@@ -147,12 +152,12 @@ span{
 	margin-bottom: 100px;
 }
 h2{
-	color: orange;
+	color: dark;
 	text-transform: capitalize;
 	font-family: serif;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 600;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 #home{
 	color: #ccc;
@@ -176,18 +181,25 @@ div .about-me{
 }
 .pgh{
 	font-size: 30px;
-	margin-left: 27%;
-	margin-top: -24.5%;
+	margin-right: 5%;
+	margin-left: 40%;
+	margin-top: -30.5%;
+	width: 50%;
 }
 .pgh-2{
 	font-size: 30px;
-	margin-top: 20px;
+	margin-top: 15px;
+	margin-right: 5%;
+	margin-left: 3%;
+	width: 100%;
 }
 h5{
-	margin-left: 0.5%;
 	font-size: 30px;
-	color: blue;
-	margin-top: -40px;
+	font-weight: 900;
+	color: dark;
+	font-family: serif;
+	font-weight: 600;
+	margin-top: -30px;
 	margin-bottom: 15px;
 }
 .header{
@@ -200,4 +212,36 @@ h5{
 }
 .pgh-3{
 	font-size: 30px;
+	margin-left: 3%;
+	margin-right: 5%;
 }
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  font-size: 40px;
+  height: 50px;
+}
+h5 .pgh .pgh-2 .pgh-3{
+	width: 80%;
+}
+.contact{
+	background-color: #154360;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border: 3px solid grey;
+}
+.contact ul li{
+	list-style: none;
+	height: 50px;
+	color: #ccc;
+	font-size: 20px;
+	text-align: left;
+	margin: 0px;
+}
+.bottom ul li{
+	margin-right: 30px;
+}
+
